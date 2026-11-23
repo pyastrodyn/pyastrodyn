@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyastrodyn"
+version = "0.0.1"
+description = "Research library in astrodynamics, companion of pyastrodyn-edu: Keplerian constellations"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Marcello Romano" }]
+keywords = ["astrodynamics", "orbital mechanics", "satellite constellations", "Walker"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Astronomy",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = ["numpy>=1.26", "pyastrodyn-edu>=0.0.9,<0.1"]
+
+[project.urls]
+Repository = "https://github.com/pyastrodyn/pyastrodyn"
+Changelog = "https://github.com/pyastrodyn/pyastrodyn/blob/main/CHANGELOG.md"
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.8"]
+dev = ["pytest>=8", "matplotlib>=3.8", "nbformat>=5.9", "ipykernel>=6"]
+
+[tool.setuptools]
+packages = ["pyastrodyn"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "pyastrodyn"
+type: software
+version: "0.0.1"
+license: MIT
+repository-code: "https://github.com/pyastrodyn/pyastrodyn"
+authors:
+  - family-names: Romano
+    given-names: Marcello
+    orcid: "https://orcid.org/0000-0002-6351-6229"
+abstract: "Research library in astrodynamics, companion of the educational library pyastrodyn-edu."
+keywords:
+  - astrodynamics
+  - orbital mechanics
+  - satellite constellations
