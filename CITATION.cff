@@ -2,7 +2,9 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "pyastrodyn"
 type: software
-version: "0.0.1"
+version: "0.0.2"
+date-released: "2026-11-23"
+doi: "10.5281/zenodo.24479530"
 license: MIT
 repository-code: "https://github.com/pyastrodyn/pyastrodyn"
 authors:

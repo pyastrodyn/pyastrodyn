@@ -1,0 +1,18 @@
+{
+  "upload_type": "software",
+  "title": "pyastrodyn",
+  "description": "Research library in astrodynamics, companion of the educational library pyastrodyn-edu. First capability: propagation of Keplerian satellite constellations. © 2026 Dr. Marcello Romano. Released under the MIT License.",
+  "creators": [
+    {
+      "name": "Romano, Marcello",
+      "orcid": "0000-0002-6351-6229"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "astrodynamics",
+    "orbital mechanics",
+    "satellite constellations",
+    "Python"
+  ]
+}

@@ -1,5 +1,7 @@
 # pyastrodyn
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24479530.svg)](https://doi.org/10.5281/zenodo.24479530)
+
 > **Provided as is.** This is research software, made available without any
 > warranty. Installation and use are not supported.
 
@@ -7,7 +9,7 @@ pyastrodyn is a research library in astrodynamics, the companion of the
 educational library [pyastrodyn-edu](https://pypi.org/project/pyastrodyn-edu/).
 It adds capabilities that are not part of the course library.
 
-Version 0.0.1 contains one capability: **constellations in Keplerian motion**.
+This version contains one capability: **constellations in Keplerian motion**.
 
 - `walker_delta`: the orbital elements of a Walker delta constellation i: t/p/f.
 - `propagate_constellation`: all the satellites at all the times in one call.
@@ -37,19 +39,25 @@ pyastrodyn-edu, passed through unchanged: `pyastrodyn.coe2rv` *is*
 implementation under the same name and with the same contract, tested against
 pyastrodyn-edu as reference. In this version no function is replaced.
 
-Version 0.0.1 uses only the functions of the public release of pyastrodyn-edu
-for Lectures 1 to 5 (version 0.0.9).
+This version uses only the functions of the public release of pyastrodyn-edu
+for Lectures 1 to 5 (version 0.0.9 or later).
+
+## Where to find it
+
+| What | Where |
+|---|---|
+| Code, examples, notebooks, tests | GitHub: <https://github.com/pyastrodyn/pyastrodyn> |
+| The library alone, to install with `pip` | PyPI: <https://pypi.org/project/pyastrodyn/> |
+| Archived versions and DOI, to cite it | Zenodo: <https://doi.org/10.5281/zenodo.24479530> |
 
 ## Installation
 
-Python 3.11 or later.
+Python 3.11 or later. pyastrodyn-edu is installed with it.
 
 ```
-pip install pyastrodyn            # when published on PyPI
+pip install pyastrodyn            # from PyPI
 pip install -e ".[plot,dev]"      # from a copy of the repository
 ```
-
-Repository: <https://github.com/pyastrodyn/pyastrodyn>
 
 ## Worked example
 
@@ -86,6 +94,15 @@ report them to the author.
 - J. G. Walker, "Satellite constellations", *Journal of the British Interplanetary Society*, 1984.
 - Wertz and Larson, *Space Mission Analysis and Design*.
 
-## Licence and citation
+## License and citation
 
-MIT License, see `LICENSE`. To cite pyastrodyn, see `CITATION.cff`.
+Copyright © 2026 Dr. Marcello Romano. Released under the MIT License; see
+`LICENSE`.
+
+To cite pyastrodyn, use its DOI, which covers all versions:
+
+> Romano, M. (2026). pyastrodyn [Computer software]. Zenodo.
+> <https://doi.org/10.5281/zenodo.24479530>
+
+The citation details are also in `CITATION.cff`; GitHub shows them under
+**Cite this repository**.

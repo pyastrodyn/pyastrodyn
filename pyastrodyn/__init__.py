@@ -8,7 +8,7 @@ with the same names and conventions (``_edu``).
 Copyright (c) 2026 Dr. Marcello Romano. MIT License.
 """
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 
 from . import constellations  # noqa: E402
 from ._edu import *  # noqa: F401,F403,E402
