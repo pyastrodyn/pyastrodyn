@@ -73,10 +73,13 @@ python -m pytest
 
 ## How the code was written
 
-The code was written by intent: the author decided what each function does,
-its conventions and its tests, and an AI assistant helped write the code and
-the documentation. All of it was reviewed by the author, who remains
-responsible for it. Please report mistakes to the author.
+The code was written through a code-by-intent process: the author defined what
+each function does, its conventions and its tests, and directed and reviewed
+the work; an AI assistant (Claude, Anthropic) wrote the code and the
+documentation. The results are checked by automatic tests. The author decided
+and reviewed all of its content; as stated in the license, it is provided as
+is, without warranty or liability. It may still contain mistakes; please
+report them to the author.
 
 ## References
 
